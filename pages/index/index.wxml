@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<!-- 轮播图 -->
+<hm-swiper list="{{banners}}"></hm-swiper>
+
+<!-- 标签切换 -->
+<hm-tabswitch 
+  list="{{sorts}}"
+  bind:tabClick="tabClick"
+></hm-tabswitch>
+
+<!-- 商品列表 -->
+<hm-good list="{{goods}}"></hm-good>
+
+<!-- about -->
+<image src="https://img.alicdn.com/imgextra/i2/4244912225/O1CN01QxvQVc1SJ5pvN8p3h_!!4244912225.jpg" mode="widthFix"></image>

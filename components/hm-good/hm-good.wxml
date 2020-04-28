@@ -1,0 +1,16 @@
+<!--components/hm-good/hm-good.wxml-->
+<block wx:for="{{list}}" wx:key="index">
+	<navigator url="/pages/detail/detail?id={{item.id}}">
+		<view class="good-item">
+			<image class="gi-img" src="{{item.coverUrl}}" mode="widthFix"></image>
+			<view class="gi-info">
+				<view class="gi-title">{{item.name}}</view>
+				<view class="gi-desc">{{item.desc}}</view>
+				<view>
+					<view class="gi-price">价格：¥{{item.price}}</view>
+					<view class="gi-sell">已售：{{item.sell}}件</view>
+				</view>
+			</view>
+		</view>
+	</navigator>
+</block>

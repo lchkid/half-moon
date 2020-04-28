@@ -1,0 +1,23 @@
+<!--pages/detail/child-comps/detail-tabbar/detail-tabbar.wxml-->
+<view class="detail-tabbar" style="padding-bottom: {{isFullScreen ? '48rpx' : '0'}};">
+	<view class="dt-left dt-item">
+		<button class="btn" open-type="share">
+			<image class="dt-icon" src="/res/img/detail/share.png" mode="widthFix"></image>
+			<view class="dt-text">分享</view>
+		</button>
+		<button class="btn" open-type="contact">
+			<image class="dt-icon" src="/res/img/detail/service.png" mode="widthFix"></image>
+			<view class="dt-text">客服</view>
+		</button>
+		<button class="btn" bind:tap="cartClick">
+			<image class="dt-icon" src="/res/img/detail/cart.png" mode="widthFix"></image>
+			<view class="dt-text">购物车</view>
+		</button>
+	</view>
+	<view class="dt-middle dt-item" bind:tap="addClick">
+		<view>加入购物车</view>
+	</view>
+	<view class="dt-right dt-item" bind:tap="buyClick">
+		<view>立即购买</view>
+	</view>
+</view>

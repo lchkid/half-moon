@@ -1,0 +1,11 @@
+<!--components/hm-tabswitch/hm-tabswitch.wxml-->
+<view class="tab-switch">
+	<block wx:for="{{list}}" wx:key="index">
+		<view 
+      class="ts-item {{currentIndex === index ? 'active' : ''}}"
+      bind:tap="tabClick"
+      data-index="{{index}}"
+      data-type="{{item.type}}"
+    >{{item.text}}</view>
+	</block>
+</view>

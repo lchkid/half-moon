@@ -1,0 +1,33 @@
+/* pages/detail/detail.wxss */
+.detail {
+  background-color: #f4f4f4;
+}
+
+.d-info {
+  background-color: #ffffff;
+  padding: 24rpx;
+  margin-bottom: 20rpx;
+}
+
+.d-price {
+  font-size: 48rpx;
+  line-height: 48rpx;
+  color: #FF4400;
+}
+
+.d-desc {
+  font-size: 32rpx;
+  line-height: 32rpx;
+  margin: 20rpx 0;
+}
+
+.d-recommend {
+  background-color: #FAFAFA;
+  border: 1px solid #E6E6E6;
+  padding: 20rpx;
+  border-radius: 8rpx;
+  font-size: 32rpx;
+  line-height: 64rpx;
+  text-align: center;
+  position: relative;
+}

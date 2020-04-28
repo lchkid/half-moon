@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "hm-swiper": "/components/hm-swiper/hm-swiper",
+    "hm-backtotop": "/components/hm-backtotop/hm-backtotop",
+    "detail-tabbar": "./child-comps/detail-tabbar/detail-tabbar"
+  },
+  "navigationBarTitleText": "商品详情"
+}

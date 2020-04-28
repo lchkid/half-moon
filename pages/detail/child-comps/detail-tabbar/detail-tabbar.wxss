@@ -1,0 +1,72 @@
+/* pages/detail/child-comps/detail-tabbar/detail-tabbar.wxss */
+.detail-tabbar {
+  display: flex;
+  align-items: center;
+  height: 100rpx;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background-color: #ffffff;
+}
+
+.dt-item {
+  flex: 1; 
+  text-align: center;
+  color: #ffffff;
+}
+
+.dt-left {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.dt-icon {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.dt-middle {
+  background-color: #FF8198;
+  border-radius: 30rpx;
+  margin: 0 20rpx;
+  padding: 10rpx 0;
+}
+
+.dt-right {
+  background-color: #FF4400;
+  border-radius: 30rpx;
+  margin: 0 20rpx;
+  padding: 10rpx 0;
+}
+
+.btn {
+  flex: 1;
+  display: inline-block;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn::after {
+  border: none;
+}
+
+.dt-icon,
+.dt-text {
+  flex: 1;
+}
+
+.dt-text {
+  font-size: 24rpx;
+  line-height: 24rpx;
+  color: #8d8d8d;
+}

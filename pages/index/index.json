@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "hm-swiper": "/components/hm-swiper/hm-swiper",
+    "hm-tabswitch": "/components/hm-tabswitch/hm-tabswitch",
+    "hm-good": "/components/hm-good/hm-good"
+  },
+  "navigationBarTitleText": "三月半 原创纸品"
+}

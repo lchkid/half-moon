@@ -1,0 +1,53 @@
+<!--pages/profile/profile.wxml-->
+<view class="profile">
+	<view class="profile-top-outer">
+		<view class="profile-top-inner">
+			<view class="pti-avatar">
+				<open-data type="userAvatarUrl"></open-data>
+			</view>
+			<view class="pti-vip">
+				<image src="/res/img/profile/vip.png" mode="widthFix"></image>
+			</view>
+			<view class="pti-name">
+				<open-data type="userNickName"></open-data>
+			</view>
+		</view>
+	</view>
+	<view class="profile-order">
+		<view class="po-title">
+			<view class="po-text">我的订单</view>
+		</view>
+		<view class="po-control">
+			<view class="pc-item">
+				<image class="pc-icon" src="/res/img/profile/wallet.png"></image>
+				<view>代付款</view>
+			</view>
+			<view class="pc-item">
+				<image class="pc-icon" src="/res/img/profile/transportation.png"></image>
+				<view>代发货</view>
+			</view>
+			<view class="pc-item">
+				<image class="pc-icon" src="/res/img/profile/checkstand.png"></image>
+				<view>待收货</view>
+			</view>
+			<view class="pc-item">
+				<image class="pc-icon" src="/res/img/profile/complete.png"></image>
+				<view>已完成</view>
+			</view>
+			<view class="pc-item">
+				<image class="pc-icon" src="/res/img/profile/atm.png"></image>
+				<view>售后</view>
+			</view>
+		</view>
+	</view>
+	<view class="profile-list">
+		<view class="pl-item">
+			<image class="pl-icon" src="/res/img/profile/collection.png"></image>
+			<view>我的收藏</view>
+		</view>
+		<view class="pl-item">
+			<image class="pl-icon" src="/res/img/profile/service.png"></image>
+			<view>联系客服</view>
+		</view>
+	</view>
+</view>

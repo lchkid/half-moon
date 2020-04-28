@@ -1,0 +1,30 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail" style="margin-bottom: {{isFullScreen ? '148rpx' : '100rpx'}};">
+	<!-- 详情页轮播图 -->
+	<hm-swiper list="{{good.banner}}"></hm-swiper>
+
+	<!-- 商品信息展示 -->
+	<view class="d-info">
+		<view class="d-price">¥{{good.price}}</view>
+		<view class="d-desc">{{good.desc}}</view>
+		<view class="d-recommend">
+			<view>愿你拥有一颗美好的童心</view>
+			<view>捕捉成千上万的可爱</view>
+		</view>
+	</view>
+
+	<!-- 商品详情 -->
+	<block wx:for="{{good.imgUrl}}" wx:key="index">
+		<image src="{{item}}" mode="widthFix"></image>
+	</block>
+
+	<!-- 回到顶部按钮 -->
+	<hm-backtotop isFullScreen="{{isFullScreen}}" bind:tap="b2tClick" wx:if="{{showb2t}}"></hm-backtotop>
+</view>
+<!-- 详情页底部tabbar -->
+<detail-tabbar 
+	isFullScreen="{{isFullScreen}}" 
+	bind:cartClick="cartClick" 
+	bind:addClick="addClick"
+	bind:buyClick="buyClick"
+></detail-tabbar>

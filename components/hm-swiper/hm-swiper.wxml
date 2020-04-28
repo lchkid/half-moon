@@ -1,0 +1,8 @@
+<!--components/hm-swiper/hm-swiper.wxml-->
+<swiper class="swiper" indicator-dots indicator-active-color="#FF8198" autoplay circular interval="3000">
+	<block wx:for="{{list}}" wx:key="index">
+		<swiper-item>
+			<image src="{{item}}" mode="widthFix"></image>
+		</swiper-item>
+	</block>
+</swiper>

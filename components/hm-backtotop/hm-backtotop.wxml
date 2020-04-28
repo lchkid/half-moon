@@ -1,0 +1,5 @@
+<!--components/hm-backtotop/hm-backtotop.wxml-->
+<view class="b2t"  style="bottom: {{isFullScreen ? '168rpx' : '120rpx'}};">
+  <image src="/res/img/common/b2t.png" mode="widthFix"></image>
+</view>
+
