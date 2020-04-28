@@ -33,7 +33,7 @@
 		<view class="ctl-item ct-text">全选</view>
 	</view>
 	<view class="ct-right ct-item">
-		<view class="ctr-item ct-price">¥12.80</view>
+		<view class="ctr-item ct-price">¥0.00</view>
 		<button class="ctr-item btn ct-checkout" bind:tap="checkClick">下单</button>
 	</view>
 </view>
